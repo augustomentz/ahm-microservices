@@ -1,9 +1,6 @@
 spring:
   application:
     name: greeting-app
-  config:
-    import:
-    - "optional:configserver:"
 management:
   endpoints:
     web:
