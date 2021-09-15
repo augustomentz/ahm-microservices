@@ -9,4 +9,4 @@ management:
         - '*'
 greeting-app:
   greeting: "Hello"
-  default-value: "World of PROD!"
+  default-value: "World of PRODUCTION!"
