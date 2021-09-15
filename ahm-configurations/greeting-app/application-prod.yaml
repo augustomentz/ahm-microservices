@@ -2,14 +2,14 @@ spring:
   application:
     name: greeting-app
   config:
-     import:
-       - "optional:configserver:"
+    import:
+    - "optional:configserver:"
 management:
   endpoints:
     web:
       exposure:
         include:
-          - '*'
+        - '*'
 greeting-app:
   greeting: "Hello"
-  default-value: "World"
+  default-value: "World of PROD!"

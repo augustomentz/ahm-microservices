@@ -1,4 +1,4 @@
-package br.com.greeting;
+package br.com.greetingapp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
